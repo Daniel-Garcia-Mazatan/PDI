@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\LMAD - 8o semestre\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\GitHub\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\LMAD - 8o semestre\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\LMAD - 8o semestre\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\LMAD - 8o semestre\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\Proyecto.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\LMAD - 8o semestre\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\PDI\\GARCIA_MAZATAN_DANIEL_1663204_PRIMER _AVANCE\\Proyecto\\Proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
